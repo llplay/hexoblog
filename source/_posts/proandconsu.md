@@ -1,6 +1,7 @@
 ---
 title: 生产者和消费者模型初探
 date: 2017-12-04 19:25:11
+thumbnail: /css/images/consumer_producer.jpg
 tags:
 - 多线程
 - 生产者消费者模型

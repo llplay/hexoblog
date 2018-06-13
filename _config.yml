@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: duoduo
 subtitle:
 description:
-author: John Doe
+author: lingduo.yang
 language: en
 timezone:
 
@@ -76,7 +76,13 @@ theme: icarus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
+#deploy:
+#  type: git
+#  repo: https://github.com/llplay/llplay.github.io.git
+#  branch: master
 deploy:
-  type: git
-  repo: https://github.com/llplay/llplay.github.io.git
-  branch: master
+    type: rsync
+    host: 47.104.107.254  # 这里填写你VPS的IP地址，比如：138.23.23.23   
+    user: root # 这里填写你登陆VPS所用的用户名，比如：root
+    root: /usr/www/blog # 这里填写你在nginx中配置的文件路径
+    port: 22 # SSH默认端口号，不需要修改

@@ -1,7 +1,12 @@
 ---
 title: 一个线程安全的单例模式
 date: 2017-12-05 10:30:21
+thumbnail: /css/images/thread-safe-singleton.jpg
 tags:
+- 单例模式
+- 线程安全
+category:
+- java
 ---
 
 
